@@ -7,9 +7,9 @@ function Header() {
           <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-white">IA ASSISTANT 🤓</h2>
           <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Cualquier cosa no se</p>
 
-          <ButtonHeader props = "Seccion 1"/>
-          <ButtonHeader props = "Seccion 2"/>
-          <ButtonHeader props = "Seccion 3"/>
+          <ButtonHeader nameContent = "Seccion 1"/>
+          <ButtonHeader nameContent = "Seccion 2"/>
+          <ButtonHeader nameContent = "Seccion 3"/>
   
       </div>
       </header>
