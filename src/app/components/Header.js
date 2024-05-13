@@ -10,7 +10,6 @@ function Header() {
           <ButtonHeader nameContent = "Seccion 1"/>
           <ButtonHeader nameContent = "Seccion 2"/>
           <ButtonHeader nameContent = "Seccion 3"/>
-  
       </div>
       </header>
     )
