@@ -7,14 +7,15 @@ import Header from "./components/Header"
 function HomePage() {
 
   const [info, setInfo] = useState('')
+  const [numero, setNumero] = useState(0)
 
   const handleSumit = () => {
-    event.preventDefault();
-   
+    event.preventDefault()
+    setNumero(numero+1)
   }
 
   const handleChange = (event) => {
-    setInfo(event.target.value);
+    setInfo(event.target.value)
   }
 
   return (
@@ -26,6 +27,7 @@ function HomePage() {
         <button className="bg-white" >boton</button>
       </form>
       <p className="text-white" >{info}</p>
+      <p className="text-white" >{numero}</p>
     </div>
 
   )
