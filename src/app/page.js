@@ -28,17 +28,20 @@ function HomePage() {
 
         <div className="flex items-center text-white">
 
-        <input placeholder="Texto" className="h-8 w-96 bg-transparent border border-gray-300 p-2" onChange={handleChange}></input>
+          <input placeholder="Texto" className="h-8 w-96 bg-transparent border border-gray-300 p-2" onChange={handleChange}></input>
 
-        <button className="h-full" >ENVIAR</button>
+          <button className="h-full" >ENVIAR</button>
 
         </div>
 
       </form>
-
-      {textResponse.map((TR, index) => (
+      <div>
+        {textResponse.map((TR, index) => (
           <p className="text-white text-center" key={index}>{TR}</p>
         ))}
+      </div>
+
+
     </div>
 
   )
