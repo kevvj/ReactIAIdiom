@@ -26,14 +26,18 @@ function HomePage() {
 
         <p className="text-white" type="text" >Holp</p>
 
+        <div className="flex items-center">
+
         <input placeholder="Texto" className="h-8 w-96" onChange={handleChange}></input>
 
-        <button className="bg-white" >boton</button>
+        <button className="bg-white h-full" >boton</button>
+
+        </div>
 
       </form>
 
       {textResponse.map((TR, index) => (
-          <p className="text-white" key={index}>{TR}</p>
+          <p className="text-white text-center" key={index}>{TR}</p>
         ))}
     </div>
 
