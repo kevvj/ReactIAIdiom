@@ -11,8 +11,14 @@ function HomePage() {
 
   const handleSumit = () => {
     event.preventDefault()
-    setTextResponse([...textResponse, textinput])
-    setTextinput('')
+
+    console.log(textinput)
+
+    if(textinput != ""){
+      setTextResponse([...textResponse, textinput])
+      setTextinput('')
+    }
+   
   }
 
   const handleChange = (event) => {
@@ -39,6 +45,7 @@ function HomePage() {
         {textResponse.map((TR, index) => (
           <p className="text-white text-center" key={index}>{TR}</p>
         ))}
+       
       </div>
 
 
