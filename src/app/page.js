@@ -26,11 +26,11 @@ function HomePage() {
 
         <p className="text-white" type="text" >Holp</p>
 
-        <div className="flex items-center">
+        <div className="flex items-center text-white">
 
-        <input placeholder="Texto" className="h-8 w-96" onChange={handleChange}></input>
+        <input placeholder="Texto" className="h-8 w-96 bg-transparent border border-gray-300 p-2" onChange={handleChange}></input>
 
-        <button className="bg-white h-full" >boton</button>
+        <button className="h-full" >ENVIAR</button>
 
         </div>
 
