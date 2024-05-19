@@ -4,6 +4,7 @@ import ButtonHeader from "./components/ButtonHeader"
 import Header from "./components/Header"
 
 
+
 function HomePage() {
 
   const [textinput, setTextinput] = useState('')
@@ -45,6 +46,7 @@ function HomePage() {
         {textResponse.map((TR, index) => (
           <p className="text-white text-center" key={index}>{TR}</p>
         ))}
+
        
       </div>
 
